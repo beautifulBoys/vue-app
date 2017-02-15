@@ -1,0 +1,5 @@
+build/*.js
+config/*.js
+src/components/scroll.vue
+lib/*.js
+lib/*.vue

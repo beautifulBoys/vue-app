@@ -1,0 +1,158 @@
+/*基础文件 清空默认样式*/
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+img {
+    border: none;
+}
+li {
+    list-style: none;
+}
+em,i{
+    font-style: normal;
+}
+/*基础文件 存放公共样式*/
+html {
+  height:100%;
+  width:100%;
+}
+body {
+    font-size: 14px;
+    font-family: "microsoft yahei";
+    background-color: #000;
+    color: #333;
+    height:100%;
+    width:100%;
+}
+.main{
+    width:100%;
+    height:100%;
+}
+select, input, textarea, button {
+    font-family: "microsoft yahei";
+    outline: none;
+}
+input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    border: 1px solid #128d91;
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    vertical-align: text-bottom;
+    cursor: default;
+    box-shadow: 0 0 2px rgba(0,0,0,0.03);
+}
+input[type="checkbox"]:checked {
+    background: url(../images/checked.png) no-repeat center center;
+    background-size: 100%;
+}
+.invisible {
+    visibility: hidden;
+}
+.hidden {
+    overflow: hidden;
+}
+/*基础文件   按钮 效果待添加*/
+button {
+    outline: none;
+    border: none;
+}
+
+/*基础文件   浮动*/
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.fn {
+    float: none;
+}
+.cl {
+    clear: both;
+}
+/*基础文件   文本对齐方式*/
+.al{
+    text-align: left;
+}
+.ar{
+    text-align: right;
+}
+.ac{
+    text-align: center;
+}
+/*基础文件   字体大小*/
+.font12 {
+    font-size: 12px;
+}
+.font14 {
+    font-size: 14px;
+}
+.font16 {
+    font-size: 16px;
+}
+/* 基础文件   元素生成的框的类型 */
+.inline {
+    display: inline;
+}
+.block {
+    display: block;
+}
+.inblock {
+    display: inline-block;
+}
+.hide {
+    display: none;
+}
+/*基础文件   title 标签颜色*/
+.title-red {
+    background: #e1474f;
+}
+.title-orange {
+    background: #e4873c;
+}
+.title-green {
+    background: #27c997;
+}
+.title-gray {
+    background: #bbb;
+}
+.title-blue {
+    background: #3a93b3;
+}
+.title-pink {
+    background: #f49484;
+}
+
+/*基础文件   常用背景色*/
+.bg-main {
+    background: #128f91;
+}
+.bg-green {
+    background: #27c997;
+}
+.bg-gray {
+    background: #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
