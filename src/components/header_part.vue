@@ -3,6 +3,7 @@
     <div class="left" @click="leftHandleEvent" v-show="config.left">
       <img src="../images/user.png" v-show="config.left === 'sidebar'"/>
       <img src="../images/goback.png" v-show="config.left === 'goback'"/>
+      <img src="../images/menu.png" v-show="config.left === 'menu'"/>
     </div>
     <div class="center">
       <slot name="title"></slot>

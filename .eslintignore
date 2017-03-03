@@ -3,3 +3,4 @@ config/*.js
 src/components/scroll.vue
 lib/*.js
 lib/*.vue
+src/view/baiduMap.vue

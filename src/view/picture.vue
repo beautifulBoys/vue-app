@@ -15,7 +15,7 @@
       <ul>
         <li v-for="(img, index) in fengjingList" @click="productEvent(img)" :class="{left: index % 2 === 0, right: index % 2 === 1}">
           <div class="img">
-            <img :src="img.src"/>
+            <img v-lazy="img.src"/>
           </div>
         </li>
       </ul>
@@ -24,7 +24,7 @@
       <ul>
         <li v-for="(img, index) in xiaohuaList" @click="productEvent(img)" :class="{left: index % 2 === 0, right: index % 2 === 1}">
           <div class="img">
-            <img :src="img.src"/>
+            <img v-lazy="img.src"/>
           </div>
         </li>
       </ul>

@@ -10,7 +10,7 @@
           <div class="item" :class="{item1: index % 2 === 0, item2: index % 2 !== 0}">
             <div>
               <div class="top">
-                <img :src="good.imgSrc"/>
+                <img v-lazy="good.imgSrc"/>
               </div>
               <div class="bottom">
                 <span class="title">{{ good.title }}</span>
@@ -51,21 +51,13 @@
       };
     },
     methods: {
-      refresh () {
-
-      },
-      loadMore () {
-
-      },
+      refresh () {},
+      loadMore () {},
       leftBtnEvent () {
         this.$emit('sidebarMenu');
       },
-      rightBtnEvent () {
-
-      },
-      productEvent () {
-
-      }
+      rightBtnEvent () {},
+      productEvent () {}
     }
   };
 </script>
