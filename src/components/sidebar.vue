@@ -32,10 +32,11 @@
       return {
         menuList: [
           {id: 0, text: '首页', link: '/home', css: 'icon0', msg: '4'},
-          {id: 1, text: '美图', link: '/picture', css: 'icon1', msg: '8'},
-          {id: 2, text: '笑话', link: '/joke', css: 'icon2', msg: ''},
-          {id: 3, text: '聊天', link: '/', css: 'icon3', msg: ''},
-          {id: 4, text: '购物', link: '/shoping', css: 'icon4', msg: ''}
+          {id: 1, text: '旅游', link: '/travel', css: 'icon5', msg: ''},
+          {id: 2, text: '美图', link: '/picture', css: 'icon1', msg: '8'},
+          {id: 3, text: '笑话', link: '/joke', css: 'icon2', msg: ''},
+          {id: 4, text: '聊天', link: '/aa', css: 'icon3', msg: ''},
+          {id: 5, text: '购物', link: '/shoping', css: 'icon4', msg: ''}
         ],
         menuIndex: 0,
         info: {},
@@ -115,7 +116,7 @@
   }
 
   .icon5 {
-    .sidebar-icon ('../images/svg/sidebar_home.svg', 20px);
+    .sidebar-icon ('../images/svg/sidebar_travel.svg', 23px);
   }
 
   .icon6 {

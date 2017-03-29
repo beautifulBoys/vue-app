@@ -8,6 +8,7 @@ import Joke from './view/joke.vue';
 import Shoping from './view/shoping.vue';
 import BaiduMap from './view/baiduMap.vue';
 import Travel from './view/travel.vue';
+import Echart from './view/echart.vue';
 import Router from 'vue-router';
 import VueLazyload from 'vue-lazyload';
 
@@ -21,6 +22,7 @@ const routes = [
   {path: '/joke', component: Joke},
   {path: '/shoping', component: Shoping},
   {path: '/baidu', component: BaiduMap},
+  {path: '/chart', component: Echart},
   {path: '/travel', component: Travel}
 ];
 

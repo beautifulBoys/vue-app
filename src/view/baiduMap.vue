@@ -42,7 +42,7 @@
 
       var mapType2 = new BMap.MapTypeControl({anchor: BMAP_ANCHOR_TOP_LEFT});
       map.addControl(mapType2);          // 左上角，默认地图控件(地图显示类型)
-      map.setCurrentCity("北京");        // 由于有3D图，需设置城市
+      map.setCurrentCity('北京');        // 由于有3D图，需设置城市
 
     }
   };
