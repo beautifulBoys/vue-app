@@ -8,7 +8,7 @@
       <ul>
         <li v-for="(item, index) in jokeList">
           <div class="item">
-            <h3>{{ index + 1 }} . {{ item.title.substring(0, 13) }}<span v-if="item.title.length > 13">...<span><img class="forward" src="../images/svg/forward.svg"/></h3>
+            <h3>{{ index + 1 }} . {{ item.title.substring(0, 13) }}<span v-if="item.title.length > 13">...</span><img class="forward" src="../images/svg/forward.svg"/></h3>
             <p class="content">{{ item.summary }}</p>
             <p class="tag"><span v-for="i in item.keywords">{{ i }}</span></p>
             <div class="bottom">
